@@ -1,0 +1,10 @@
+{
+  "name": "moers-haushalt",
+  "version": "0.0.0",
+  "author": "Astro <astro@spaceboyz.net>",
+  "license": "AGPL",
+  "dependencies": {
+    "csv-stringify": "0.0.3",
+    "ltx": "^0.6.0"
+  }
+}
