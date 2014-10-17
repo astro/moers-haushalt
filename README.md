@@ -9,7 +9,7 @@ https://twitter.com/derarndt/status/522290389467004928
 
 ```
 npm i
-wget "http://www.moers.de/c125722e0057acf2/files/gesamt20130125062358_090_1.xml/\$file/gesamt20130125062358_090_1.xml?openelement" \
+curl "http://www.moers.de/c125722e0057acf2/files/gesamt20130125062358_090_1.xml/\$file/gesamt20130125062358_090_1.xml?openelement" \
     | node xml2csv.js > haushalt.csv
 ```
 
